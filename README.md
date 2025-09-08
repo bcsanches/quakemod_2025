@@ -66,4 +66,5 @@ void() misc_statue =
 # Utils
 
 - [https://valvedev.info/tools/pakexplorer/]
+- Nice quakeC tutorials: [https://www.insideqc.com/qctut/]
   
