@@ -1,0 +1,108 @@
+// Game: Quake
+// Format: Standard
+// entity 0
+{
+"wad" "D:\games\QuakeEdit\original\medieval.wad;D:\games\QuakeEdit\original\metal.wad;D:\games\QuakeEdit\original\start.wad;D:\games\QuakeEdit\original\tim.wad;D:\games\QuakeEdit\original\wizard.wad;D:\games\QuakeEdit\original\base.wad;D:\games\QuakeEdit\original\items.wad;D:\games\QuakeEdit\original\jr_med.wad;"
+"classname" "worldspawn"
+"property 1" ""
+"_tb_textures" "base.wad;items.wad;jr_med.wad;metal.wad;start.wad;tim.wad;wizard.wad"
+// brush 0
+{
+( -320 64 0 ) ( -320 -560 0 ) ( -320 -560 -80 ) grave03_1 0 0 0 1 1
+( -320 -560 0 ) ( 448 -560 0 ) ( 448 -560 -80 ) grave03_1 0 0 0 1 1
+( 448 -560 -80 ) ( 448 64 -80 ) ( -320 64 -80 ) grave03_1 0 0 0 1 1
+( -320 64 0 ) ( 448 64 0 ) ( 448 -560 0 ) grave03_1 0 0 0 1 1
+( 448 64 -80 ) ( 448 64 0 ) ( -320 64 0 ) grave03_1 0 0 0 1 1
+( 448 -560 0 ) ( 448 64 0 ) ( 448 64 -80 ) grave03_1 0 0 0 1 1
+}
+// brush 1
+{
+( -320 128 320 ) ( -320 64 320 ) ( -320 64 0 ) city1_2 0 0 0 1 1
+( -320 64 320 ) ( 448 64 320 ) ( 448 64 0 ) city1_2 0 0 0 1 1
+( 448 64 0 ) ( 448 128 0 ) ( -320 128 0 ) city1_2 0 0 0 1 1
+( -320 128 320 ) ( 448 128 320 ) ( 448 64 320 ) city1_2 0 0 0 1 1
+( 448 128 0 ) ( 448 128 320 ) ( -320 128 320 ) city1_2 0 0 0 1 1
+( 448 64 320 ) ( 448 128 320 ) ( 448 128 0 ) city1_2 0 0 0 1 1
+}
+// brush 2
+{
+( -344 64 320 ) ( -344 -560 320 ) ( -344 -560 0 ) city1_2 0 0 0 1 1
+( -344 -560 320 ) ( -320 -560 320 ) ( -320 -560 0 ) city1_2 0 0 0 1 1
+( -320 -560 0 ) ( -320 64 0 ) ( -344 64 0 ) city1_2 0 0 0 1 1
+( -344 64 320 ) ( -320 64 320 ) ( -320 -560 320 ) city1_2 0 0 0 1 1
+( -320 64 0 ) ( -320 64 320 ) ( -344 64 320 ) city1_2 0 0 0 1 1
+( -320 -560 320 ) ( -320 64 320 ) ( -320 64 0 ) city1_2 0 0 0 1 1
+}
+// brush 3
+{
+( -320 -560 320 ) ( -320 -624 320 ) ( -320 -624 0 ) city1_2 -16 0 0 1 1
+( -320 -624 320 ) ( 448 -624 320 ) ( 448 -624 0 ) city1_2 0 0 0 1 1
+( 448 -624 0 ) ( 448 -560 0 ) ( -320 -560 0 ) city1_2 0 16 0 1 1
+( -320 -560 320 ) ( 448 -560 320 ) ( 448 -624 320 ) city1_2 0 16 0 1 1
+( 448 -560 0 ) ( 448 -560 320 ) ( -320 -560 320 ) city1_2 0 0 0 1 1
+( 448 -624 320 ) ( 448 -560 320 ) ( 448 -560 0 ) city1_2 -16 0 0 1 1
+}
+// brush 4
+{
+( 448 64 320 ) ( 448 -560 320 ) ( 448 -560 0 ) city1_2 0 0 0 1 1
+( 448 -560 320 ) ( 472 -560 320 ) ( 472 -560 0 ) city1_2 -24 0 0 1 1
+( 472 -560 0 ) ( 472 64 0 ) ( 448 64 0 ) city1_2 -24 0 0 1 1
+( 448 64 320 ) ( 472 64 320 ) ( 472 -560 320 ) city1_2 -24 0 0 1 1
+( 472 64 0 ) ( 472 64 320 ) ( 448 64 320 ) city1_2 -24 0 0 1 1
+( 472 -560 320 ) ( 472 64 320 ) ( 472 64 0 ) city1_2 0 0 0 1 1
+}
+// brush 5
+{
+( -320 64 400 ) ( -320 -560 400 ) ( -320 -560 320 ) grave03_1 0 16 0 1 1
+( -320 -560 400 ) ( 448 -560 400 ) ( 448 -560 320 ) grave03_1 0 16 0 1 1
+( 448 -560 320 ) ( 448 64 320 ) ( -320 64 320 ) grave03_1 0 0 0 1 1
+( -320 64 400 ) ( 448 64 400 ) ( 448 -560 400 ) grave03_1 0 0 0 1 1
+( 448 64 320 ) ( 448 64 400 ) ( -320 64 400 ) grave03_1 0 16 0 1 1
+( 448 -560 400 ) ( 448 64 400 ) ( 448 64 320 ) grave03_1 0 16 0 1 1
+}
+}
+// entity 1
+{
+"classname" "info_player_start"
+"origin" "-256 -240 24"
+}
+// entity 2
+{
+"classname" "misc_explobox"
+"origin" "-64 -384 0"
+}
+// entity 3
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-108 60 60"
+}
+// entity 4
+{
+"classname" "light_torch_small_walltorch"
+"origin" "-316 -300 68"
+}
+// entity 5
+{
+"classname" "item_health"
+"origin" "256 -32 0"
+}
+// entity 6
+{
+"classname" "item_armor2"
+"origin" "-128 -240 0"
+}
+// entity 7
+{
+"classname" "monster_ogre"
+"origin" "384 -496 24"
+}
+// entity 8
+{
+"classname" "light_torch_small_walltorch"
+"origin" "444 -356 108"
+}
+// entity 9
+{
+"classname" "light_torch_small_walltorch"
+"origin" "260 -556 140"
+}
